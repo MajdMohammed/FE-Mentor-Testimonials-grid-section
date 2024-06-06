@@ -29,7 +29,7 @@
     --padd-1: 0.625rem;
     --padd-2: 1.25rem;
     --padd-3: 2rem;
-    --padd-4: 5rem;
+    --padd-4: 4.5em;
 
     /* margin */
     --margin-0: 0.8rem;
@@ -260,35 +260,25 @@ blockquote {
     .section1 {
         grid-column: auto;
         grid-row: 1;
-
-        background-color: var(--Moderate-violet);
     }
 
     .section2 {
         grid-column: auto;
         grid-row: 2;
-
-        background-color: var(--Very-dark-grayish-blue);
     }
 
     .section3 {
         grid-column: auto;
-        grid-row: 3;
-
-        background-color: var(--White);
+        grid-row: 5;
     }
 
     .section4 {
         grid-column: auto;
-        grid-row: 4;
-
-        background-color: var(--White);
+        grid-row: 3;
     }
 
     .section5 {
         grid-column: auto;
-        grid-row: 5;
-
-        background-color: var(--Very-dark-blackish-blue);
+        grid-row: 4;
     }
 }
