@@ -27,15 +27,15 @@
 
     /* padding */
     --padd-1: 0.625rem;
-    --padd-2: 1.25rem;
-    --padd-3: 2rem;
-    --padd-4: 4.5em;
+    --padd-2: clamp(0.7em, calc(0.5em + 0.725vw), 1.8em);
+    --padd-3: clamp(1em, calc(1em + 1vw), 3em);
+    --padd-4: clamp(2em, calc(2em + 2vw), 6em);
 
     /* margin */
     --margin-0: 0.8rem;
-    --margin-1: 1.25rem;
-    --margin-2: 2rem;
-    --margin-3: 3rem;
+    --margin-1: clamp(0.7rem, calc(0.5rem + 0.725vw), 1.8rem);
+    --margin-2: clamp(1rem, calc(1rem + 1vw), 3rem);
+    --margin-3: clamp(1.5rem, calc(1rem + 2vw), 4rem);
 }
 
 /* ========================================== */
@@ -122,6 +122,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: fit-content;
     background-color: var(--Light-grayish-blue);
     padding: var(--padd-4);
     font-family: var(--ffam-barlow-semi-condensed);
@@ -250,7 +251,7 @@ blockquote {
 }
 
 /* mobile / tablet design */
-@media (max-width:56.25rem) {
+@media (max-width:53.188rem) {
     main {
         display: grid;
         grid-template: repeat(5, auto) / repeat(1, 1fr);
