@@ -16,7 +16,7 @@
     --ffam-barlow-semi-condensed: "barlow-semi-condensed";
 
     /* font-size */
-    --fsize-step1: calc(0.8rem + 0.013vw);
+    --fsize-step1: calc(0.8rem + 0.113vw);
     --fsize-step2: calc(0.6rem + 1vw);
     --fsize-step3: calc(0.5rem + 0.5vw);
     --fsize-step4: calc(0.8rem + 0.013vw);
@@ -29,7 +29,7 @@
     --padd-1: 0.625rem;
     --padd-2: clamp(0.7em, calc(0.5em + 0.725vw), 1.8em);
     --padd-3: clamp(1em, calc(1em + 1vw), 3em);
-    --padd-4: clamp(2em, calc(2em + 2vw), 6em);
+    --padd-4: clamp(4em, calc(5em + 4vw), 11em);
 
     /* margin */
     --margin-0: 0.8rem;
@@ -138,7 +138,9 @@ main {
 section {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     max-width: 40rem;
+    box-shadow: 10px 14px 29px -9px var(--Very-dark-grayish-blue);
     padding: var(--padd-3);
     border-radius: 0.7rem;
 }
@@ -238,7 +240,7 @@ blockquote {
 
 /* description quote */
 .description {
-    font-family: var(--fsize-step1);
+    font-size: var(--fsize-step1);
     font-weight: var(--fw-500);
     color: var(--Light-gray);
     opacity: var(--opacity-70);
