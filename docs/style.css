@@ -210,19 +210,12 @@ h2 {
 }
 
 /* svg quote image */
-.quote-img {
+svg {
     position: absolute;
     z-index: 1;
     top: 0%;
     left: 50%;
     transform: translate(50%, 0%);
-}
-
-.quote-img img {
-    position: absolute;
-    border-radius: initial;
-    width: 9rem;
-    height: 9rem;
 }
 
 span {
