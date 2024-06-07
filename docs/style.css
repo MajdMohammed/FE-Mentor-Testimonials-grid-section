@@ -17,7 +17,7 @@
 
     /* font-size */
     --fsize-step1: calc(0.8rem + 0.113vw);
-    --fsize-step2: calc(0.6rem + 1vw);
+    --fsize-step2: calc(0.6rem + 0.85vw);
     --fsize-step3: calc(0.5rem + 0.5vw);
     --fsize-step4: calc(0.8rem + 0.013vw);
 
@@ -139,7 +139,6 @@ section {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    max-width: 40rem;
     box-shadow: 10px 14px 29px -9px var(--Very-dark-grayish-blue);
     padding: var(--padd-3);
     border-radius: 0.7rem;
