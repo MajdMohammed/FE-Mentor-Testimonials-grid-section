@@ -120,9 +120,9 @@ body {
 /* css grid */
 main {
     display: grid;
-    max-width: 66rem;
+    max-width: 67.6rem;
     grid-template: repeat(2, 1fr) / repeat(4, 1fr);
-    margin: 1.5rem;
+    margin: 4rem 2rem;
     gap: 1.5rem;
 }
 
@@ -175,6 +175,7 @@ section .box {
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    z-index: 2;
 }
 
 img {
@@ -213,9 +214,8 @@ h2 {
 svg {
     position: absolute;
     z-index: 1;
-    top: 0%;
-    left: 50%;
-    transform: translate(50%, 0%);
+    top: 0;
+    right: 80px;
 }
 
 span {
