@@ -121,7 +121,7 @@ body {
 main {
     display: grid;
     max-width: 67.6rem;
-    grid-template: repeat(2, 1fr) / repeat(4, 1fr);
+    grid-template: repeat(2, auto) / repeat(4, 1fr);
     margin: 4rem 2rem;
     gap: 1.5rem;
 }
@@ -129,6 +129,7 @@ main {
 section {
     display: flex;
     flex-direction: column;
+    /* justify-content: space-between; */
     box-shadow: 40px 60px 50px -47px rgba(72, 85, 106, 0.25);
     padding: 1.6rem 2rem 2rem 2rem;
     border-radius: 8px;
@@ -268,7 +269,7 @@ p {
 @media (max-width:69.25rem) and (min-width:43.75rem) {
     main {
         display: grid;
-        grid-template: repeat(3, 1fr) / repeat(3, 1fr);
+        grid-template: repeat(3, auto) / repeat(3, 1fr);
         gap: 1rem;
     }
 
@@ -303,7 +304,7 @@ p {
     main {
         display: grid;
         grid-template: repeat(5, auto) / 1fr;
-        gap: 0.8rem;
+        gap: 1rem;
     }
 
     .section1 {
